@@ -13,6 +13,8 @@ describe ( 'Buffer2Uint8', it => {
     const buffer = new Buffer ( 'hello' );
     const uint8 = buffer2uint8 ( buffer ); // => Uint8Array (5) [ 104, 101, 108, 108, 111 ]
 
+    t.true ( buffer instanceof Buffer );
+    t.true ( uint8 instanceof Uint8Array );
     t.true ( buffer.equals ( uint8 ) );
 
   });
