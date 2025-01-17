@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/buffer2uint8",
   "description": "A tiny function for casting a Buffer to a Uint8Array.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
