@@ -10,13 +10,15 @@ A tiny function for casting a Buffer to a Uint8Array.
 ## Install
 
 ```sh
-npm install --save buffer2uint8
+npm install buffer2uint8
 ```
 
 ## Usage
 
 ```ts
 import buffer2uint8 from 'buffer2uint8';
+
+// Let's convert a Buffer to a Uint8Array
 
 const buffer = new Buffer ( 'hello' );
 const uint8 = buffer2uint8 ( buffer ); // => Uint8Array (5) [ 104, 101, 108, 108, 111 ]
